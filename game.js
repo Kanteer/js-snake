@@ -1,5 +1,6 @@
+import { SNAKE_SPEED } from './snake.js'
+
 let lastRenderTime = 0
-const SNAKE_SPEED = 4
 
 function main(currentTime) {
   const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000
