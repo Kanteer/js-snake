@@ -22,5 +22,6 @@ function update() {
 }
 
 function draw() {
+  gameBoard.inheritHTML =''
   drawSnake(gameBoard)
 }
